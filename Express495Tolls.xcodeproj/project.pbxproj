@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81F00E93183CFDF300B6A9F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F00E92183CFDF300B6A9F0 /* Foundation.framework */; };
+		81F00E95183CFDF300B6A9F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F00E94183CFDF300B6A9F0 /* CoreGraphics.framework */; };
+		81F00E97183CFDF300B6A9F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F00E96183CFDF300B6A9F0 /* UIKit.framework */; };
+		81F00E9D183CFDF300B6A9F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81F00E9B183CFDF300B6A9F0 /* InfoPlist.strings */; };
+		81F00E9F183CFDF300B6A9F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F00E9E183CFDF300B6A9F0 /* main.m */; };
+		81F00EA3183CFDF300B6A9F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F00EA2183CFDF300B6A9F0 /* AppDelegate.m */; };
+		81F00EA6183CFDF300B6A9F0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F00EA4183CFDF300B6A9F0 /* Main_iPhone.storyboard */; };
+		81F00EA9183CFDF300B6A9F0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F00EA7183CFDF300B6A9F0 /* Main_iPad.storyboard */; };
+		81F00EAC183CFDF300B6A9F0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F00EAB183CFDF300B6A9F0 /* MasterViewController.m */; };
+		81F00EAF183CFDF300B6A9F0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F00EAE183CFDF300B6A9F0 /* DetailViewController.m */; };
+		81F00EB1183CFDF300B6A9F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F00EB0183CFDF300B6A9F0 /* Images.xcassets */; };
+		81F00EB8183CFDF400B6A9F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F00EB7183CFDF400B6A9F0 /* XCTest.framework */; };
+		81F00EB9183CFDF400B6A9F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F00E92183CFDF300B6A9F0 /* Foundation.framework */; };
+		81F00EBA183CFDF400B6A9F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F00E96183CFDF300B6A9F0 /* UIKit.framework */; };
+		81F00EC2183CFDF400B6A9F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81F00EC0183CFDF400B6A9F0 /* InfoPlist.strings */; };
+		81F00EC4183CFDF400B6A9F0 /* Express495TollsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F00EC3183CFDF400B6A9F0 /* Express495TollsTests.m */; };
+		81F00ECF183D058500B6A9F0 /* TollLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F00ECE183D058500B6A9F0 /* TollLocations.m */; };
+		81F00ED1183D05B200B6A9F0 /* tolldata.json in Resources */ = {isa = PBXBuildFile; fileRef = 81F00ED0183D05B200B6A9F0 /* tolldata.json */; };
+		81F00ED5183D0B7600B6A9F0 /* TollLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F00ED4183D0B7600B6A9F0 /* TollLocation.m */; };
+		FFBBF898A6874424A2590262 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A96E7707324DDEAE00F6A7 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81F00EBB183CFDF400B6A9F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81F00E87183CFDF300B6A9F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81F00E8E183CFDF300B6A9F0;
+			remoteInfo = Express495Tolls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B338E01D55D4094B2FFB5A9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		81F00E8F183CFDF300B6A9F0 /* Express495Tolls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Express495Tolls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F00E92183CFDF300B6A9F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81F00E94183CFDF300B6A9F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81F00E96183CFDF300B6A9F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81F00E9A183CFDF300B6A9F0 /* Express495Tolls-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Express495Tolls-Info.plist"; sourceTree = "<group>"; };
+		81F00E9C183CFDF300B6A9F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81F00E9E183CFDF300B6A9F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81F00EA0183CFDF300B6A9F0 /* Express495Tolls-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Express495Tolls-Prefix.pch"; sourceTree = "<group>"; };
+		81F00EA1183CFDF300B6A9F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81F00EA2183CFDF300B6A9F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81F00EA5183CFDF300B6A9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		81F00EA8183CFDF300B6A9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		81F00EAA183CFDF300B6A9F0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		81F00EAB183CFDF300B6A9F0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		81F00EAD183CFDF300B6A9F0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		81F00EAE183CFDF300B6A9F0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		81F00EB0183CFDF300B6A9F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81F00EB6183CFDF400B6A9F0 /* Express495TollsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Express495TollsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F00EB7183CFDF400B6A9F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		81F00EBF183CFDF400B6A9F0 /* Express495TollsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Express495TollsTests-Info.plist"; sourceTree = "<group>"; };
+		81F00EC1183CFDF400B6A9F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81F00EC3183CFDF400B6A9F0 /* Express495TollsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Express495TollsTests.m; sourceTree = "<group>"; };
+		81F00ECD183D058500B6A9F0 /* TollLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TollLocations.h; sourceTree = "<group>"; };
+		81F00ECE183D058500B6A9F0 /* TollLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TollLocations.m; sourceTree = "<group>"; };
+		81F00ED0183D05B200B6A9F0 /* tolldata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tolldata.json; sourceTree = "<group>"; };
+		81F00ED3183D0B7600B6A9F0 /* TollLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TollLocation.h; sourceTree = "<group>"; };
+		81F00ED4183D0B7600B6A9F0 /* TollLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TollLocation.m; sourceTree = "<group>"; };
+		F8A96E7707324DDEAE00F6A7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81F00E8C183CFDF300B6A9F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F00E95183CFDF300B6A9F0 /* CoreGraphics.framework in Frameworks */,
+				81F00E97183CFDF300B6A9F0 /* UIKit.framework in Frameworks */,
+				81F00E93183CFDF300B6A9F0 /* Foundation.framework in Frameworks */,
+				FFBBF898A6874424A2590262 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F00EB3183CFDF400B6A9F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F00EB8183CFDF400B6A9F0 /* XCTest.framework in Frameworks */,
+				81F00EBA183CFDF400B6A9F0 /* UIKit.framework in Frameworks */,
+				81F00EB9183CFDF400B6A9F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81F00E86183CFDF300B6A9F0 = {
+			isa = PBXGroup;
+			children = (
+				81F00E98183CFDF300B6A9F0 /* Express495Tolls */,
+				81F00EBD183CFDF400B6A9F0 /* Express495TollsTests */,
+				81F00E91183CFDF300B6A9F0 /* Frameworks */,
+				81F00E90183CFDF300B6A9F0 /* Products */,
+				6B338E01D55D4094B2FFB5A9 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		81F00E90183CFDF300B6A9F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81F00E8F183CFDF300B6A9F0 /* Express495Tolls.app */,
+				81F00EB6183CFDF400B6A9F0 /* Express495TollsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81F00E91183CFDF300B6A9F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81F00E92183CFDF300B6A9F0 /* Foundation.framework */,
+				81F00E94183CFDF300B6A9F0 /* CoreGraphics.framework */,
+				81F00E96183CFDF300B6A9F0 /* UIKit.framework */,
+				81F00EB7183CFDF400B6A9F0 /* XCTest.framework */,
+				F8A96E7707324DDEAE00F6A7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81F00E98183CFDF300B6A9F0 /* Express495Tolls */ = {
+			isa = PBXGroup;
+			children = (
+				81F00ED2183D0AB800B6A9F0 /* Models */,
+				81F00EA1183CFDF300B6A9F0 /* AppDelegate.h */,
+				81F00EA2183CFDF300B6A9F0 /* AppDelegate.m */,
+				81F00EA4183CFDF300B6A9F0 /* Main_iPhone.storyboard */,
+				81F00EA7183CFDF300B6A9F0 /* Main_iPad.storyboard */,
+				81F00EAA183CFDF300B6A9F0 /* MasterViewController.h */,
+				81F00EAB183CFDF300B6A9F0 /* MasterViewController.m */,
+				81F00EAD183CFDF300B6A9F0 /* DetailViewController.h */,
+				81F00EAE183CFDF300B6A9F0 /* DetailViewController.m */,
+				81F00EB0183CFDF300B6A9F0 /* Images.xcassets */,
+				81F00E99183CFDF300B6A9F0 /* Supporting Files */,
+				81F00ECD183D058500B6A9F0 /* TollLocations.h */,
+				81F00ECE183D058500B6A9F0 /* TollLocations.m */,
+				81F00ED0183D05B200B6A9F0 /* tolldata.json */,
+			);
+			path = Express495Tolls;
+			sourceTree = "<group>";
+		};
+		81F00E99183CFDF300B6A9F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81F00E9A183CFDF300B6A9F0 /* Express495Tolls-Info.plist */,
+				81F00E9B183CFDF300B6A9F0 /* InfoPlist.strings */,
+				81F00E9E183CFDF300B6A9F0 /* main.m */,
+				81F00EA0183CFDF300B6A9F0 /* Express495Tolls-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81F00EBD183CFDF400B6A9F0 /* Express495TollsTests */ = {
+			isa = PBXGroup;
+			children = (
+				81F00EC3183CFDF400B6A9F0 /* Express495TollsTests.m */,
+				81F00EBE183CFDF400B6A9F0 /* Supporting Files */,
+			);
+			path = Express495TollsTests;
+			sourceTree = "<group>";
+		};
+		81F00EBE183CFDF400B6A9F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81F00EBF183CFDF400B6A9F0 /* Express495TollsTests-Info.plist */,
+				81F00EC0183CFDF400B6A9F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81F00ED2183D0AB800B6A9F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81F00ED3183D0B7600B6A9F0 /* TollLocation.h */,
+				81F00ED4183D0B7600B6A9F0 /* TollLocation.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81F00E8E183CFDF300B6A9F0 /* Express495Tolls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F00EC7183CFDF400B6A9F0 /* Build configuration list for PBXNativeTarget "Express495Tolls" */;
+			buildPhases = (
+				7C0BB8BA2BEA4A859D11C0FE /* Check Pods Manifest.lock */,
+				81F00E8B183CFDF300B6A9F0 /* Sources */,
+				81F00E8C183CFDF300B6A9F0 /* Frameworks */,
+				81F00E8D183CFDF300B6A9F0 /* Resources */,
+				50BC53F7231146D1BC84B23F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Express495Tolls;
+			productName = Express495Tolls;
+			productReference = 81F00E8F183CFDF300B6A9F0 /* Express495Tolls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81F00EB5183CFDF400B6A9F0 /* Express495TollsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F00ECA183CFDF400B6A9F0 /* Build configuration list for PBXNativeTarget "Express495TollsTests" */;
+			buildPhases = (
+				81F00EB2183CFDF400B6A9F0 /* Sources */,
+				81F00EB3183CFDF400B6A9F0 /* Frameworks */,
+				81F00EB4183CFDF400B6A9F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81F00EBC183CFDF400B6A9F0 /* PBXTargetDependency */,
+			);
+			name = Express495TollsTests;
+			productName = Express495TollsTests;
+			productReference = 81F00EB6183CFDF400B6A9F0 /* Express495TollsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81F00E87183CFDF300B6A9F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Citrrus, LLC";
+				TargetAttributes = {
+					81F00EB5183CFDF400B6A9F0 = {
+						TestTargetID = 81F00E8E183CFDF300B6A9F0;
+					};
+				};
+			};
+			buildConfigurationList = 81F00E8A183CFDF300B6A9F0 /* Build configuration list for PBXProject "Express495Tolls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81F00E86183CFDF300B6A9F0;
+			productRefGroup = 81F00E90183CFDF300B6A9F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81F00E8E183CFDF300B6A9F0 /* Express495Tolls */,
+				81F00EB5183CFDF400B6A9F0 /* Express495TollsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81F00E8D183CFDF300B6A9F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F00EA9183CFDF300B6A9F0 /* Main_iPad.storyboard in Resources */,
+				81F00ED1183D05B200B6A9F0 /* tolldata.json in Resources */,
+				81F00EB1183CFDF300B6A9F0 /* Images.xcassets in Resources */,
+				81F00EA6183CFDF300B6A9F0 /* Main_iPhone.storyboard in Resources */,
+				81F00E9D183CFDF300B6A9F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F00EB4183CFDF400B6A9F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F00EC2183CFDF400B6A9F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50BC53F7231146D1BC84B23F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C0BB8BA2BEA4A859D11C0FE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81F00E8B183CFDF300B6A9F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F00EA3183CFDF300B6A9F0 /* AppDelegate.m in Sources */,
+				81F00ED5183D0B7600B6A9F0 /* TollLocation.m in Sources */,
+				81F00ECF183D058500B6A9F0 /* TollLocations.m in Sources */,
+				81F00EAC183CFDF300B6A9F0 /* MasterViewController.m in Sources */,
+				81F00E9F183CFDF300B6A9F0 /* main.m in Sources */,
+				81F00EAF183CFDF300B6A9F0 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F00EB2183CFDF400B6A9F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F00EC4183CFDF400B6A9F0 /* Express495TollsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81F00EBC183CFDF400B6A9F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81F00E8E183CFDF300B6A9F0 /* Express495Tolls */;
+			targetProxy = 81F00EBB183CFDF400B6A9F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81F00E9B183CFDF300B6A9F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F00E9C183CFDF300B6A9F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81F00EA4183CFDF300B6A9F0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F00EA5183CFDF300B6A9F0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		81F00EA7183CFDF300B6A9F0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F00EA8183CFDF300B6A9F0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		81F00EC0183CFDF400B6A9F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F00EC1183CFDF400B6A9F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81F00EC5183CFDF400B6A9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81F00EC6183CFDF400B6A9F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81F00EC8183CFDF400B6A9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B338E01D55D4094B2FFB5A9 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Express495Tolls/Express495Tolls-Prefix.pch";
+				INFOPLIST_FILE = "Express495Tolls/Express495Tolls-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81F00EC9183CFDF400B6A9F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B338E01D55D4094B2FFB5A9 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Express495Tolls/Express495Tolls-Prefix.pch";
+				INFOPLIST_FILE = "Express495Tolls/Express495Tolls-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		81F00ECB183CFDF400B6A9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Express495Tolls.app/Express495Tolls";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Express495Tolls/Express495Tolls-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Express495TollsTests/Express495TollsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		81F00ECC183CFDF400B6A9F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Express495Tolls.app/Express495Tolls";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Express495Tolls/Express495Tolls-Prefix.pch";
+				INFOPLIST_FILE = "Express495TollsTests/Express495TollsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81F00E8A183CFDF300B6A9F0 /* Build configuration list for PBXProject "Express495Tolls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F00EC5183CFDF400B6A9F0 /* Debug */,
+				81F00EC6183CFDF400B6A9F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F00EC7183CFDF400B6A9F0 /* Build configuration list for PBXNativeTarget "Express495Tolls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F00EC8183CFDF400B6A9F0 /* Debug */,
+				81F00EC9183CFDF400B6A9F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F00ECA183CFDF400B6A9F0 /* Build configuration list for PBXNativeTarget "Express495TollsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F00ECB183CFDF400B6A9F0 /* Debug */,
+				81F00ECC183CFDF400B6A9F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81F00E87183CFDF300B6A9F0 /* Project object */;
+}

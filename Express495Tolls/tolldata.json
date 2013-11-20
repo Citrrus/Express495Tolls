@@ -1,0 +1,151 @@
+ [
+  {
+  "longitude": -77.1929567291,
+  "count": 1,
+  "latitude": 38.7969397411,
+  "closest": true,
+  "tmsName": "DMS-495-N-55.6",
+  "direction": "N",
+  "title": "N from Beltway",
+  "desc": "Northbound entry point after the Springfield Interchange",
+  "entryID": 495002
+  },
+  {
+  "longitude": -77.2135617279,
+  "count": 4,
+  "latitude": 38.8114284155,
+  "closest": true,
+  "tmsName": "DMS-BR-W-0.2",
+  "direction": "N",
+  "title": "N from Braddock",
+  "desc": "Northbound entry point from Braddock",
+  "entryID": 495002
+  },
+  {
+  "longitude": -77.2188865368,
+  "count": 10,
+  "latitude": 38.853236656,
+  "closest": true,
+  "tmsName": "DMS-GR-W-0.2",
+  "direction": "N",
+  "title": "N from Gallows",
+  "desc": "Northbound entry point from Gallows Road",
+  "entryID": 495003
+  },
+  {
+  "longitude": -77.2211884208,
+  "count": 18,
+  "latitude": 38.8755444578,
+  "closest": true,
+  "tmsName": "DMS-LH-E-0.1-1",
+  "direction": "S",
+  "title": "S from Lee Hwy",
+  "desc": "Southbound entry point at Lee Highway (Route 29)",
+  "entryID": 495004
+  },
+  {
+  "longitude": -77.2291544784,
+  "count": 23,
+  "latitude": 38.8828851516,
+  "closest": true,
+  "tmsName": "DMS-66-E-0.5",
+  "title": "N from I-66E",
+  "direction": "N",
+  "desc": "Northbound entry point from I-66 east",
+  "entryID": 495006
+  },
+  {
+  "longitude": -77.2392512571,
+  "count": 24,
+  "latitude": 38.8800322407,
+  "closest": true,
+  "tmsName": "DMS-66-E-1.0",
+  "direction": "S",
+  "title": "S from I-66E",
+  "desc": "Southbound entry point from I-66 east"
+  },
+  {
+  "longitude": -77.2159986478,
+  "count": 26,
+  "latitude": 38.8896201979,
+  "closest": true,
+  "tmsName": "DMS-66-W-0.2",
+  "direction": "S",
+  "title": "S from I-66W",
+  "desc": "Southbound entry point from I-66 west",
+  "entryID": 495104
+  },
+  {
+  "longitude": -77.2167588397,
+  "count": 31,
+  "latitude": 38.9098954219,
+  "closest": true,
+  "tmsName": "DMS-LP-E-0.1",
+  "direction": "S",
+  "title": "S from Rte. 7",
+  "desc": "Southbound entry point from Leesburg Pike (Route 7)",
+  "entryID": 495107
+  },
+  {
+  "longitude": -77.2189156086,
+  "count": 39,
+  "latitude": 38.921336688,
+  "closest": true,
+  "tmsName": "DMS-WP-S-0.1-1",
+  "direction": "N",
+  "title": "N from Westpark",
+  "desc": "Northbound entry point from Westpark Drive"
+  },
+  {
+  "longitude": -77.225,
+  "count": 40,
+  "latitude": 38.9213342706,
+  "closest": true,
+  "tmsName": "DMS-WP-S-0.1-2",
+  "direction": "S",
+  "title": "S from Westpark",
+  "desc": "Southbound entry point from Westpark Drive"
+  },
+  {
+  "longitude": -77.2182868361,
+  "count": 46,
+  "latitude": 38.9313495876,
+  "closest": true,
+  "tmsName": "DMS-JB-S-0.2-1",
+  "direction": "N",
+  "title": "N from Jones Branch",
+  "desc": "Northbound entry point from Jones Branch Drive"
+  },
+  {
+  "longitude": -77.2168864167,
+  "count": 49,
+  "latitude": 38.927120003,
+  "closest": true,
+  "tmsName": "DMS-JB-N-0.2",
+  "direction": "S",
+  "title": "S from Jones Branch",
+  "desc": "Southbound entry point from Jones Branch Drive"
+  },
+  {
+  "longitude": -77.2168822741,
+  "count": 51,
+  "latitude": 38.9331092988,
+  "closest": true,
+  "tmsName": "DMS-DTR-E-0.7",
+  "direction": "S",
+  "title": "South from Rte. 267",
+  "desc": "Southbound entry point from Dulles Toll Road (Route 267)",
+  "entryID": 495109
+  },
+  {
+  "longitude": -77.20407939,
+  "count": 53,
+  "latitude": 38.9433157146,
+  "closest": true,
+  "tmsName": "DMS-495-S-44.8",
+  "direction": "S",
+  "title": "S from Beltway",
+  "desc": "Southbound entry from Beltway one mile after the GW Parkway/Gtown Pike",
+  "entryID": 495109
+  }
+  ]
