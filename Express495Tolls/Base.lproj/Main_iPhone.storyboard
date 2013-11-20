@@ -56,7 +56,7 @@
                             <outlet property="delegate" destination="pGg-6v-bdr" id="Y6K-Cp-Qkv"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Master" id="tQt-TN-PWz"/>
+                    <navigationItem key="navigationItem" title="Entrances" id="tQt-TN-PWz"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Cn-md-YlS" sceneMemberID="firstResponder"/>
             </objects>
@@ -74,15 +74,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WPw-J9-JTc">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WPw-J9-JTc">
+                                <rect key="frame" x="0.0" y="122" width="320" height="446"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="jad-jH-Pus">
+                                <rect key="frame" x="20" y="64" width="280" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="UPC-v8-BOC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jad-jH-Pus" secondAttribute="trailing" constant="20" id="3Uh-jP-DXL"/>
+                            <constraint firstAttribute="trailing" secondItem="WPw-J9-JTc" secondAttribute="trailing" id="4va-5l-I6q"/>
+                            <constraint firstItem="jad-jH-Pus" firstAttribute="top" secondItem="NqT-pJ-bO7" secondAttribute="bottom" id="86C-ma-bD2"/>
+                            <constraint firstItem="jad-jH-Pus" firstAttribute="leading" secondItem="MMQ-IT-qOo" secondAttribute="leading" constant="20" id="8g8-UT-eBE"/>
+                            <constraint firstItem="eab-45-ulX" firstAttribute="top" secondItem="WPw-J9-JTc" secondAttribute="bottom" id="jVw-x9-JwC"/>
+                            <constraint firstItem="WPw-J9-JTc" firstAttribute="top" secondItem="jad-jH-Pus" secondAttribute="bottom" constant="8" id="jzr-u8-e8P"/>
+                            <constraint firstItem="WPw-J9-JTc" firstAttribute="leading" secondItem="MMQ-IT-qOo" secondAttribute="leading" id="woG-1R-u4f"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="cra-N8-TIN"/>
                     <connections>
+                        <outlet property="descriptionLabel" destination="jad-jH-Pus" id="jVy-yv-XDk"/>
                         <outlet property="tollImage" destination="WPw-J9-JTc" id="FdO-NQ-Sxo"/>
                     </connections>
                 </viewController>

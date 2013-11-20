@@ -16,6 +16,7 @@
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
 - (void)configureView;
 @property (weak, nonatomic) IBOutlet UIImageView *tollImage;
+@property (weak, nonatomic) IBOutlet UILabel *descriptionLabel;
 
 @end
 
@@ -31,6 +32,7 @@ NSString *baseUrl = @"https://www.495expresslanes.com/generate-dms-sign.php?tmsN
     {
         self.title = self.toll.title;
         NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:baseUrl, self.toll.tmsName, self.toll.direction]];
+        self.descriptionLabel.text = self.toll.desc;
         [[[SDWebImageManager sharedManager] imageCache] removeImageForKey:[url absoluteString]];
         [self.tollImage setImageWithURL:url];
     }
