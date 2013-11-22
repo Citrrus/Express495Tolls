@@ -33,7 +33,7 @@
 {
     [super viewDidLoad];
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
-    self.objects = [TollLocations tollData];
+    self.objects = [[TollLocations tollData] sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:@"latitude" ascending:NO]]];
 }
 
 #pragma mark - Table View
@@ -57,6 +57,7 @@
     cell.textLabel.minimumScaleFactor = .01;
     cell.textLabel.adjustsFontSizeToFitWidth = YES;
     cell.textLabel.text = [object title];
+    cell.detailTextLabel.text = object.desc;
     return cell;
 }
 

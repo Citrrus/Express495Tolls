@@ -11,8 +11,8 @@
 
 @interface TollLocation : MTLModel <MTLJSONSerializing>
 
-//@property (nonatomic)double longitude;
-//@property (nonatomic)double latitude;
+@property (nonatomic)double longitude;
+@property (nonatomic)double latitude;
 @property (nonatomic)BOOL closest;
 @property (nonatomic, copy)NSString *tmsName;
 @property (nonatomic, copy)NSString *direction;
